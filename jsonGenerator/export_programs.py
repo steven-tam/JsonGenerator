@@ -2,7 +2,7 @@ import requests
 import json
 
 def export_dogs():
-    url = 'https://app.coursedog.com/api/v1/cm/umn_umntc_peoplesoft/programs/'
+    url = 'REMOVED FOR SECURITY'
     file_name = 'allPrograms.json'
     response = requests.get(url)
     if response.status_code == 200:

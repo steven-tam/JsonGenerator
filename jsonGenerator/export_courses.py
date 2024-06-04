@@ -1,7 +1,7 @@
 import requests
 import json
 def export_dogs():
-    url = 'https://app.coursedog.com/api/v1/cm/umn_umntc_peoplesoft/courses/search/$filters?returnFields=id,code,longName,credits[numberOfCredits]&limit=infinity'
+    url = 'REMOVED FOR SECURITY'
     file_name = 'allCourses.json'
     response = requests.get(url)
     if response.status_code == 200:
